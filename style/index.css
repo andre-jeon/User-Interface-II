@@ -40,6 +40,7 @@ nav {
     justify-content: center;
     align-items: center;
     background-color: gold;
+    padding: 10%;
 }
 
 .second-flex h1 {
@@ -55,17 +56,22 @@ nav {
 .third-flex {
     display: flex;
     justify-content: space-around;
+    height: 50%;
+    margin: 5% 0;
 }
 
 .fourth-flex {
     display: flex;
     justify-content: space-around;
+    height: 50%;
+    margin: 5% 0;
 }
 
 footer {
     display: flex;
     justify-content: center;
     background-color: antiquewhite;
+    padding: 7%;
 }
 
 footer a {

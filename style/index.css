@@ -17,6 +17,7 @@
 
 .first-flex a {
     text-decoration: none;
+    color: black;
 }
 
 section h2 {
@@ -64,8 +65,11 @@ nav {
 footer {
     display: flex;
     justify-content: center;
+    background-color: antiquewhite;
 }
 
 footer a {
     text-decoration: none;
+    font-family: AlphaMack AOE;
+    color: black;
 }

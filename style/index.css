@@ -58,7 +58,21 @@ nav a:hover {
     align-items: center;
     background-color: gold;
     padding: 5%;
+    animation: pulse 7s infinite;
 }
+
+@keyframes pulse {
+    0% {
+      background-color: gold;
+    }
+    50% {
+      background-color: #FF4136;
+    }
+    100% {
+        background-color: gold;
+      }
+  }
+
 
 .second-flex h1 {
     font-family: AlphaMack AOE;
@@ -124,5 +138,3 @@ footer a:hover {
     background-color:black;
     color: white;
 }
-
-

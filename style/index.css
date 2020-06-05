@@ -3,7 +3,7 @@
     padding:0;
     margin:0;
     max-width:100%;
-    border:1px solid grey;
+    /*border:1px solid grey;*/
 }
 
   html {
@@ -80,18 +80,23 @@ nav a:hover {
 .third-flex {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     height: 50%;
-    margin: 5% 0;
+    margin: 2% 0;
     text-align: center;
+    font-size: 0.5rem;
+    font-family: AlphaMack AOE;
 }
 
 .fourth-flex {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     height: 50%;
-    margin: 5% 0;
+    margin: 2% 0;
     text-align: center;
     font-size: 0.5rem;
+    font-family: AlphaMack AOE;
 }
 
 footer {

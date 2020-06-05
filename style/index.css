@@ -34,13 +34,26 @@ nav {
     justify-content: space-between;
 }
 
+nav a {
+    font-family: AlphaMack AOE;
+    color: black;
+    border: 3px solid black;
+    background-color: white;
+    font-size: 0.5rem;
+}
+
+nav a:hover {
+    background-color:black;
+    color: white;
+}
+
 .second-flex {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: gold;
-    padding: 10%;
+    padding: 5%;
 }
 
 .second-flex h1 {
@@ -48,9 +61,20 @@ nav {
     font-weight: lighter;
 }
 
-.second-flex p {
+.second-flex a {
     font-family: AlphaMack AOE;
     font-weight: lighter;
+    padding: 1% 5%;
+    border: 3px solid black;
+    background-color: white;
+    font-size: 0.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+.second-flex a:hover{
+    background-color:black;
+    color: white;
 }
 
 .third-flex {
@@ -58,6 +82,7 @@ nav {
     justify-content: space-around;
     height: 50%;
     margin: 5% 0;
+    text-align: center;
 }
 
 .fourth-flex {
@@ -65,17 +90,30 @@ nav {
     justify-content: space-around;
     height: 50%;
     margin: 5% 0;
+    text-align: center;
+    font-size: 0.5rem;
 }
 
 footer {
     display: flex;
     justify-content: center;
-    background-color: antiquewhite;
-    padding: 7%;
+    background-color: whitesmoke;
+    padding: 5%;
 }
 
 footer a {
     text-decoration: none;
     font-family: AlphaMack AOE;
     color: black;
+    padding: 1% 5%;
+    border: 3px solid black;
+    background-color: white;
+    font-size: 0.5rem;
 }
+
+footer a:hover {
+    background-color:black;
+    color: white;
+}
+
+

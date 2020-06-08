@@ -3,7 +3,7 @@
     padding:0;
     margin:0;
     max-width:100%;
-    /*border:1px solid grey;*/
+    border:1px solid grey;
 }
 
   html {
@@ -140,7 +140,23 @@ footer a:hover {
 }
 
 @media(max-width: 800px){
-  
+    .first-flex {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .first-flex h2 {
+        display: flex;
+        justify-content: center;
+        margin-left: 0rem;
+    }
+
+    .first-flex nav {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
 }
 
 @media(max-width: 500px){

@@ -157,6 +157,11 @@ footer a:hover {
         flex-direction: column;
         width: 100%;
     }
+
+    .second-flex {
+        display: flex;
+        margin: 4%;
+    }
 }
 
 @media(max-width: 500px){

@@ -1,1 +1,203 @@
-/* Add CSS styling here */
+* {
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    /*border:1px solid grey;*/
+}
+
+  html {
+    font-size: 62.5px;
+}
+
+.first-flex {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.first-flex a {
+    text-decoration: none;
+    color: black;
+}
+
+section h2 {
+    font-family: AlphaMack AOE;
+    font-weight: lighter;
+    margin-left: 1rem;
+}
+
+nav {
+    width: 40%;
+    font-family: AlphaMack AOE;
+    color: black;
+    font-weight: lighter;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+}
+
+nav a {
+    border: 2.5px solid black;
+    background-color: white;
+    text-align: center;
+    font-size: 0.5rem;
+    width: 3rem;
+}
+
+nav a:hover {
+    background-color:black;
+    color: white;
+}
+
+.second-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gold;
+    padding: 5%;
+    animation: pulse 7s infinite;
+}
+
+@keyframes pulse {
+    0% {
+      background-color: gold;
+    }
+    50% {
+      background-color: #FF4136;
+    }
+    100% {
+        background-color: gold;
+      }
+  }
+
+
+.second-flex h1 {
+    font-family: AlphaMack AOE;
+    font-weight: lighter;
+}
+
+.second-flex a {
+    font-family: AlphaMack AOE;
+    font-weight: lighter;
+    padding: 1% 5%;
+    border: 3px solid black;
+    background-color: white;
+    font-size: 0.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+.second-flex a:hover{
+    background-color:black;
+    color: white;
+}
+
+.third-flex {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 90%;
+    margin: 2% auto;
+    text-align: center;
+    font-size: 0.5rem;
+    font-family: AlphaMack AOE;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    padding: 5%;
+}
+
+footer a {
+    text-decoration: none;
+    font-family: AlphaMack AOE;
+    color: black;
+    border: 3px solid black;
+    background-color: white;
+    font-size: 0.5rem;
+    padding: 0% 3%;
+}
+
+footer a:hover {
+    background-color:black;
+    color: white;
+}
+
+@media(max-width: 800px){
+    .first-flex {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .first-flex h2 {
+        display: flex;
+        justify-content: center;
+        margin-left: 0rem;
+    }
+
+    .first-flex nav {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .second-flex {
+        display: flex;
+        margin: 4%;
+    }
+
+    .third-flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100%;
+        height: 150%;
+    }
+}
+
+@media(max-width: 500px) {
+    .first-flex {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .third-flex {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        height: 100%;
+    }
+
+    .third-flex div {
+        width: 45%;
+        margin: auto;
+        font-size: 0.45rem;
+    }
+}
+
+/*stretch goals*/
+
+/*iphone*/
+@media(max-width: 360px) {
+    .second-flex h1 {
+        text-align: center;
+    }
+    .third-flex div {
+        width: 45%;
+        margin: auto;
+        font-size: 0.3rem;
+    }
+}
+
+/*laptop*/
+@media(max-width: 1366px) {
+
+}

@@ -182,3 +182,22 @@ footer a:hover {
         font-size: 0.45rem;
     }
 }
+
+/*stretch goals*/
+
+/*iphone*/
+@media(max-width: 360px) {
+    .second-flex h1 {
+        text-align: center;
+    }
+    .third-flex div {
+        width: 45%;
+        margin: auto;
+        font-size: 0.3rem;
+    }
+}
+
+/*laptop*/
+@media(max-width: 1366px) {
+
+}
